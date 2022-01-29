@@ -1,5 +1,11 @@
-﻿import './styles/global.scss';
+﻿import { Home } from './components/pages/home/Home';
+import './styles/global.scss';
+import { InputProps } from './components/input/type';
 
-export function App() {
-  return <div>Without-cra</div>;
+export function App({...props}: InputProps) {
+  return (
+    <>
+      <Home {...props}/>
+    </>
+  )
 }
