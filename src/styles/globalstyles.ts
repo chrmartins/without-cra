@@ -13,8 +13,8 @@ const GlobalStyles = createGlobalStyle`
    }
    body {
     font-family: 'Popins', sans-serif;
-    background: #191622;
-    color: #cdd9e5;
+    background: ${theme.colors.darkPurple};
+    color: ${theme.colors.lightGrey};
     }
   `} 
 

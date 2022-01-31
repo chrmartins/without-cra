@@ -40,5 +40,5 @@
     modal: 40,
     alwaysOnTop: 50
   }
-};
+}
 
