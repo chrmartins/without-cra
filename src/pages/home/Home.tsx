@@ -2,16 +2,9 @@
 
 import * as S from './styles';
 
-import {Input} from '../../input/Input';
-import { InputProps } from '../../input/type';
+import {Input} from '../../components/input/Input';
 
-export function Home({
-  type,
-  placeholder,
-  onChange,
-  value,
-  name
-}: InputProps) {
+export function Home() {
 
   const [nameField, setNameField] = useState('');
 
