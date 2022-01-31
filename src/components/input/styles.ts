@@ -22,7 +22,7 @@ ${({ theme }) => css`
     ::placeholder {
       padding: 0 ${theme.spacings.small};
       color: ${theme.colors.lightGrey};
-    
+    }
   `}
 `;
 
