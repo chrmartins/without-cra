@@ -18,7 +18,6 @@ export function Home() {
           value={nameField}
           onChange={(e) => setNameField(e.target.value)}
         />
-        {console.log(nameField)}
       </S.Form>
     </S.Container>
   )
