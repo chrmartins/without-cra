@@ -20,7 +20,6 @@ export const Input = styled.input`
     color: ${theme.colors.darkGrey};
 
     ::placeholder {
-      padding: 0 ${theme.spacings.xxsmall};
       color: ${theme.colors.lightGrey};
     }
   `}
