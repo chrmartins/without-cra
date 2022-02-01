@@ -1,20 +1,19 @@
-﻿import React, { useState } from 'react';
+﻿import React, { useState } from 'react'
 
-import * as S from './styles';
+import * as S from './styles'
 
-import {Input} from '../../components/input/Input';
+import { Input } from '../../components/input/Input'
 
 export function Home() {
-
-  const [nameField, setNameField] = useState('');
+  const [nameField, setNameField] = useState('')
 
   return (
     <S.Container>
       <S.Form>
-        <Input  
-          name='nome'
-          type='text'
-          placeholder='Enter your name'
+        <Input
+          name="nome"
+          type="text"
+          placeholder="Enter your name"
           value={nameField}
           onChange={(e) => setNameField(e.target.value)}
         />

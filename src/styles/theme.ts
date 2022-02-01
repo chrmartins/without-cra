@@ -3,7 +3,7 @@
     darkPurple: '#191622',
     lightGrey: '#D7D8E4',
     darkGrey: '#2c2c2c',
-    lightGreen: '#98dc8f',
+    lightGreen: '#98dc8f'
   },
   border: {
     radius: '0.8rem'
@@ -17,12 +17,11 @@
       large: '1.8rem',
       xlarge: '2.0rem',
       xxlarge: '2.8rem'
-    },
+    }
   },
   weight: {
     normal: 400,
-    bold: 600,
-
+    bold: 600
   },
   spacings: {
     xxsmall: '0.4rem',
@@ -41,4 +40,3 @@
     alwaysOnTop: 50
   }
 }
-

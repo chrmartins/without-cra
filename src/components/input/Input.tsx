@@ -1,5 +1,5 @@
-﻿import * as S from './styles';
-import { InputProps } from './type';
+﻿import * as S from './styles'
+import { InputProps } from './type'
 
 export const Input = ({
   type,
@@ -8,7 +8,6 @@ export const Input = ({
   value,
   name
 }: InputProps) => {
-  
   return (
     <S.Container>
       <S.Input
@@ -19,18 +18,5 @@ export const Input = ({
         value={value}
       />
     </S.Container>
-  ) 
+  )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

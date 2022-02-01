@@ -1,14 +1,14 @@
-﻿import styled, { css } from "styled-components";
+﻿import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
+`
 
 export const Input = styled.input`
-${({ theme }) => css`
+  ${({ theme }) => css`
     display: flex;
     border-radius: ${theme.border.radius};
     width: 100%;
@@ -24,6 +24,6 @@ ${({ theme }) => css`
       color: ${theme.colors.lightGrey};
     }
   `}
-`;
+`
 
 // Fazer estilo do input conforme estilo do botão curso React Avançado

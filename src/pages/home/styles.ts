@@ -1,4 +1,4 @@
-﻿import styled, { css } from "styled-components";
+﻿import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -6,10 +6,10 @@ export const Container = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
-`;
+`
 
 export const Form = styled.form`
-${({ theme }) => css`
+  ${({ theme }) => css`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,4 +19,4 @@ ${({ theme }) => css`
     background: ${theme.colors.lightGreen};
     border-radius: ${theme.border.radius};
   `}
-`;
+`
