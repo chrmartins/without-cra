@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 `
 
 export const Input = styled.input`
@@ -20,10 +20,17 @@ export const Input = styled.input`
     color: ${theme.colors.darkGrey};
 
     ::placeholder {
-      padding: 0 ${theme.spacings.small};
+      padding: 0 ${theme.spacings.xxsmall};
       color: ${theme.colors.lightGrey};
     }
   `}
 `
-
-// Fazer estilo do input conforme estilo do botão curso React Avançado
+export const Label = styled.label`
+  ${({ theme }) => css`
+    padding-left: ${theme.spacings.small};
+    font-size: ${theme.spacings.small};
+    color: ${theme.colors.grey};
+    font-weight: 400;
+    padding-bottom: ${theme.spacings.xsmall};
+  `}
+`

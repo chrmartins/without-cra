@@ -3,6 +3,7 @@ import { InputProps } from './type'
 
 export const Input = ({
   type,
+  label,
   placeholder,
   onChange,
   value,
@@ -10,6 +11,7 @@ export const Input = ({
 }: InputProps) => {
   return (
     <S.Container>
+      <S.Label>{label}</S.Label>
       <S.Input
         name={name}
         type={type}

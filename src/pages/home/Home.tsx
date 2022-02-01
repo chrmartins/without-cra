@@ -11,7 +11,8 @@ export function Home() {
     <S.Container>
       <S.Form>
         <Input
-          name="nome"
+          label="Name"
+          name="name"
           type="text"
           placeholder="Enter your name"
           value={nameField}
