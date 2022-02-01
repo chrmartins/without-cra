@@ -13,7 +13,7 @@ export const Input = styled.input`
     border-radius: ${theme.border.radius};
     width: 100%;
     height: ${theme.spacings.xxlarge};
-    border: none;
+    border: 1px solid ${theme.colors.lightGrey};
     font-size: ${theme.font.sizes.medium};
     padding: 0 ${theme.spacings.small};
     outline: none;

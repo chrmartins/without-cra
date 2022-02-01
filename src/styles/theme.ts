@@ -1,7 +1,7 @@
 ﻿export default {
   colors: {
     darkPurple: '#191622',
-    lightGrey: '#D7D8E4',
+    lightGrey: '#C8C6C6',
     grey: '#787878',
     darkGrey: '#2c2c2c',
     lightGreen: '#98dc8f'
